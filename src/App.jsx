@@ -1,4 +1,5 @@
-import React from 'react';
+
+
 import YourComponent from './assets/js/main';
 
 import Hero from './components/Hero';

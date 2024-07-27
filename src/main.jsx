@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
+import initializeAOS from './aosConfig';
 
 // External css
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +14,7 @@ import './assets/css/tiny-slider.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS from node_modules
 import './assets/js/tiny-slider.js';
 
+initializeAOS(); // Initialize AOS here
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
